@@ -1,0 +1,10 @@
+
+
+services:
+  nginx-ja4-nopatch:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    network_mode: "host"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf/nginx.conf
