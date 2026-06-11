@@ -329,5 +329,3 @@ server {
 - **Missing JA4TCP?** JA4TCP requires access to raw TCP connection data. Ensure NGINX is running with `--with-http_realip_module` and proper network configuration. If using Docker, use `--network host` mode for accurate TCP fingerprinting.
 - **Short Codes?** If you see 12-char hashes, you are running the standard version. Recompile with the modified generic hash length if full hashes are required.
 
-## License
-MIT License.
